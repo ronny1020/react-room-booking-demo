@@ -4,10 +4,16 @@
   "description": "room booking demo",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack",
+    "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
     "@babel/preset-typescript": "^7.16.0",
     "@types/react": "^17.0.37",
