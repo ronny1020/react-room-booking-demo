@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.scss'
+import './style.scss'
 import RoomAllocation from './component/RoomAllocation/RoomAllocation'
 
 export default function App() {

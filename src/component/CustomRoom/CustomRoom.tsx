@@ -1,7 +1,7 @@
 import React from 'react'
 import CustomInputNumber from '../CustomInputNumber/CustomInputNumber'
 import { CustomRoomMembers } from './CustomRoom.domain'
-import classes from './customRoom.module.scss'
+import classes from './CustomRoom.module.scss'
 
 interface CustomRoomProps {
   value: CustomRoomMembers
