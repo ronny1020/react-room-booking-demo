@@ -1,0 +1,22 @@
+.custom_room_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+
+  .member_type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .member_type_text {
+      width: 50%;
+      padding: 8px;
+
+      .member_type_subtitle {
+        color: #a7a7a7;
+      }
+    }
+  }
+}

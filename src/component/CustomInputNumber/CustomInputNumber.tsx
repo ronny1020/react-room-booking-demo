@@ -14,7 +14,7 @@ function isNumberString(str: string): boolean {
   return /^\d+$/.test(str)
 }
 
-function CustomInputNumber({
+export default function CustomInputNumber({
   value,
   onChange,
   min = 0,
@@ -74,7 +74,7 @@ function CustomInputNumber({
         type="button"
         className={classes.button}
         onClick={handleClickSub}
-        disabled={disabled}
+        disabled={disabled || value === min}
       >
         -
       </button>
@@ -88,12 +88,10 @@ function CustomInputNumber({
         type="button"
         className={[classes.button, classes.button_dark].join(' ')}
         onClick={handleClickAdd}
-        disabled={disabled}
+        disabled={disabled || value === max}
       >
         +
       </button>
     </div>
   )
 }
-
-export default CustomInputNumber

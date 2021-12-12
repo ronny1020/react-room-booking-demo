@@ -1,13 +1,18 @@
-import React from 'react'
-import CustomInputNumber from './component/CustomInputNumber/CustomInputNumber'
+import React, { useState } from 'react'
+import CustomRoom from './component/CustomRoom/CustomRoom'
+import { CustomRoomMembers } from './component/CustomRoom/CustomRoom.domain'
+import './App.scss'
 
 export default function App() {
-  const [value, setValue] = React.useState<number | ''>(0)
+  const [result, setResult] = useState<CustomRoomMembers>({
+    adult: 1,
+    child: 0,
+  })
 
   return (
     <>
-      <h1>Hello World</h1>
-      <CustomInputNumber value={value} onChange={setValue} />
+      <h1>Room Booking</h1>
+      <CustomRoom value={result} onChange={setResult} />
     </>
   )
 }
