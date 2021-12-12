@@ -1,0 +1,6 @@
+{
+  "*.{js,ts,jsx,tsx}": ["eslint src/** --fix"],
+  "*.scss": ["stylelint --fix"],
+  "*.html": ["eslint --ext .html --fix"],
+  "*.{json,md}": ["prettier --write"]
+}

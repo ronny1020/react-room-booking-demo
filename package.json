@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x} --fix",
+    "lint:css": "stylelint \"**/*.scss\"  --fix",
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "stylelint-webpack-plugin": "^3.1.0",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -42,8 +46,10 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
     "image-webpack-loader": "^8.0.1",
     "jest": "^27.4.4",
+    "lint-staged": "^12.1.2",
     "mini-css-extract-plugin": "^2.4.5",
     "node-sass": "^7.0.0",
     "path": "^0.12.7",
@@ -54,6 +60,12 @@
     "sass-loader": "^12.4.0",
     "source-map-loader": "^3.0.0",
     "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended-scss": "4.2.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.21.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.3",
     "typescript-plugin-css-modules": "^3.4.0",
