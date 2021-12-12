@@ -29,13 +29,14 @@ export default function CustomRoom({
       return
     }
     onChange({
-      child: newChild || 0,
       adult,
+      child: newChild || 0,
     })
   }
 
   return (
     <div className={classes.custom_room_wrapper}>
+      <h2>房間:{adult + child}人</h2>
       <div className={classes.member_type}>
         <div className={classes.member_type_text}>
           <div className={classes.member_type_title}>大人</div>
