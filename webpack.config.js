@@ -89,6 +89,6 @@ module.exports = {
       filename: isDevelopment ? '[name].css' : '[name].[hash].css',
       chunkFilename: isDevelopment ? '[id].css' : '[id].[hash].css',
     }),
-    new StylelintPlugin(options),
+    new StylelintPlugin(),
   ],
 }
