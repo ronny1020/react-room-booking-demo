@@ -28,6 +28,7 @@
   },
   "rules": {
     "linebreak-style": ["error", "unix"],
+    "react-hooks/exhaustive-deps": "off",
     "react/function-component-definition": [
       2,
       {
@@ -35,6 +36,7 @@
         "unnamedComponents": "arrow-function"
       }
     ],
+    "react/jsx-props-no-spreading": "off",
     "react/no-array-index-key": "off",
     "react/require-default-props": "off"
   },
@@ -49,7 +51,12 @@
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx"],
-        "moduleDirectory": ["node_modules", "src"]
+        "moduleDirectory": ["node_modules", "src"],
+        "import/resolver": {
+          "node": {
+            "moduleDirectory": ["node_modules", "src/"]
+          }
+        }
       }
     }
   }
