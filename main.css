@@ -1,0 +1,83 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/components/CustomInputNumber/CustomInputNumber.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.CustomInputNumber-module-input_wrapper--P7QTx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.CustomInputNumber-module-input_wrapper--P7QTx .CustomInputNumber-module-button--lg06e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin: 8px;
+  border-style: solid;
+  border-color: #badfed;
+  border-radius: 4px;
+  background-color: white;
+  color: #badfed;
+  outline: none;
+  font-size: 36px;
+}
+.CustomInputNumber-module-input_wrapper--P7QTx .CustomInputNumber-module-button--lg06e:disabled {
+  border-color: grey;
+  background-color: lightgrey;
+  color: grey;
+}
+.CustomInputNumber-module-input_wrapper--P7QTx .CustomInputNumber-module-button_dark--PCWyX {
+  border-color: #4fa7d2;
+  color: #4fa7d2;
+}
+.CustomInputNumber-module-input_wrapper--P7QTx .CustomInputNumber-module-input--eJdBv {
+  width: 48px;
+  height: 48px;
+  margin: 8px;
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/components/CustomRoom/CustomRoom.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.CustomRoom-module-custom_room_wrapper--onzCL {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.CustomRoom-module-custom_room_wrapper--onzCL .CustomRoom-module-member_type--bv4jl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.CustomRoom-module-custom_room_wrapper--onzCL .CustomRoom-module-member_type--bv4jl .CustomRoom-module-member_type_text--T05yu {
+  width: 50%;
+}
+.CustomRoom-module-custom_room_wrapper--onzCL .CustomRoom-module-member_type--bv4jl .CustomRoom-module-member_type_text--T05yu .CustomRoom-module-member_type_subtitle--zgeVs {
+  color: #a7a7a7;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/components/RoomAllocation/RoomAllocation.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+.RoomAllocation-module-room_allocation_wrapper--NMPM6 {
+  width: 720px;
+  padding: 8px;
+}
+.RoomAllocation-module-room_allocation_wrapper--NMPM6 .RoomAllocation-module-restNumber--AQmxG {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #dff3f9;
+  border-radius: 4px;
+  background-color: #f1fdff;
+  font-weight: bold;
+  font-size: 14px;
+}
